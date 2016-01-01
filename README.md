@@ -26,6 +26,8 @@ Or install it yourself as:
 
     # Instantiate the API using an API key
     mapquest = MapQuest.new API_KEY
+    # TO use open mapquest
+    mapquest = Mapquest.new API_KEY API_VERSION true
 
     # Get geolocation data
     data = mapquest.geocoding.address "London, UK"
